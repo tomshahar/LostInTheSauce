@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <link rel="stylesheet" href="static/common.css" type = "text/css">
+  <link rel="stylesheet" href="static/recipes.css" type = "text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <link rel="shortcut icon" type="image/png" href="static/images/LostintheSauceLogo2-01.png">
+  <title>Recipes | Lost in the Sauce</title>
+</head>
+<body>
+  <header id = "header-wrapper">
+    <common-header></common-header>
+  </header>
+  <main>
+    <div class = "recipes-container">
+      <div class = "recipe-wrapper">
+        <div class = "recipe-image-wrapper">
+          <img class = "recipe-image" src = "static/images/sample1.jpg"/>
+        </div>
+        <p>
+          <span class = "tag">Dessert</span>
+          <span class = "cook-time yellow">30 min</span>
+          <span class = "portions">18 Cookies</span>
+        </p>
+        <a id = "cookies-link"><h3>Orange and Coffee Chocolate Chip Cookies</h3></a>
+      </div>
+      <div class = "recipe-wrapper">
+        <div class = "recipe-image-wrapper">
+          <img class = "recipe-image" src = "static/images/sample2.jpeg"/>
+        </div>
+        <p>
+          <span class = "tag">Sauce</span>
+          <span class = "cook-time yellow">35 min</span>
+          <span class = "portions">2 Cups</span>
+        </p>
+        <a><h3>Homemade Raspberry Compote</h3></a>
+      </div>
+      <div class = "recipe-wrapper">
+        <div class = "recipe-image-wrapper">
+          <img class = "recipe-image" src = "static/images/sample3.jpeg"/>
+        </div>
+        <p>
+          <span class = "tag">Sauce</span>
+          <span class = "cook-time">15 min</span>
+          <span class = "portions">1 Cup</span>
+        </p>
+        <a><h3>Lemon Tarragon Beurre Blanc</h3></a>
+      </div>
+      <div class = "recipe-wrapper">
+        <div class = "recipe-image-wrapper">
+          <img class = "recipe-image" src = "static/images/sample1.jpg"/>
+        </div>
+        <p>
+          <span class = "tag">Dessert</span>
+          <span class = "cook-time yellow">30 min</span>
+          <span class = "portions">18 Cookies</span>
+        </p>
+        <a><h3>Orange and Coffee Chocolate Chip Cookies</h3></a>
+      </div>
+      <div class = "recipe-wrapper">
+        <div class = "recipe-image-wrapper">
+          <img class = "recipe-image" src = "static/images/sample2.jpeg"/>
+        </div>
+        <p>
+          <span class = "tag">Sauce</span>
+          <span class = "cook-time yellow">35 min</span>
+          <span class = "portions">2 Cups</span>
+        </p>
+        <a><h3>Homemade Raspberry Compote</h3></a>
+      </div>
+      <div class = "recipe-wrapper">
+        <div class = "recipe-image-wrapper">
+          <img class = "recipe-image" src = "static/images/sample3.jpeg"/>
+        </div>
+        <p>
+          <span class = "tag">Sauce</span>
+          <span class = "cook-time ">15 min</span>
+          <span class = "portions">1 Cup</span>
+        </p>
+        <a><h3>Lemon Tarragon Beurre Blanc</h3></a>
+      </div>
+
+    </div>
+    <!---->
+    <div class = "recipe-page" id = "recipe-1">
+      <div class = "recipe-page-image"></div>
+      <h1 class = "recipe-header">
+        Orange and Coffee Chocolate Chip Cookies
+      </h1>
+      <p class = "recipe-time yellow">
+        30 Minutes
+      </p>
+      <p class = "recipe-yeild">
+        18 Cookies
+      </p>
+      <h2 class = "recipe-ingredients-header">
+        Ingredients
+      </h2>
+      <p class = "recipe-ingredients">
+        1 cup Unsalted Butter <br>
+        1 cup White Sugar <br>
+        1 cup Brown Sugar <br>
+        2 Large Eggs <br>
+        1.5 tsp Vanilla Extract <br>
+        0.5 tsp Orange Extract <br>
+        2 tsp Coffee <br>
+        1 tsp Baking Soda <br>
+        1.5 tsp Salt <br>
+        3 cups Flour <br>
+      </p>
+      <h2 class = "recipe-instructions-header">
+        Instructions
+      </h2>
+      <p class = "recipe-instructions">
+        Preheat oven to 360 degrees. If you have convection, use it. Soften butter for 15 seconds in the microwave. In the bowl of a stand mixer,
+        cream together the butter and both sugars until fully combined. Add the eggs, and mix until just incorporated. <br><br>Add the vanilla, orange,
+        coffee, baking soda, and salt. Mix until fully combined. <br><br>Add flour in iterations of 1 cup. The dough should be slightly sticky when pressed.
+        Take a spoonful and tilt it; the dough should stick to the spoon completely, not fall down. You may find that less that 3 cups of flour gives
+        better dough, so add the last cup in smaller iterations. <br><br>Line a baking sheet with parchment paper, and scoop balls of dough of about 2.5 tbsp
+        each, 6 cookies per batch. Bake for between 8 and 10 minutes, then let cool for at least 2 minutes on the baking sheet.
+      </p>
+    </div>
+
+  </main>
+
+  <section id = "contact-section" class = "contact-section">
+    <div>
+      <a id = "nav__btn--contact--close" class = "nav__btn">Contact Us</a>
+        <h2 class = "contact-name">TOM SHAHAR</h2>
+        <p class = "contact-email" id = "tomemail"> tom.e.shahar@gmail.com </p>
+        <h2  class = "contact-name">ALEX YAN</h2>
+        <p  class = "contact-email" id = "alexemail"> yan.alexyan@gmail.com </p>
+    </div>
+
+  </section>
+
+
+  <section id = "about-section" class = "about-section">
+    <div>
+      <a id = "nav__btn--about--close" class = "nav__btn">About</a>
+      <div>
+        <img class = "headshot" src="static/images/alexyan.jpg"></img>
+        <h2 class = "about-name">Alex Yan</h2>
+        <a href="http://www.alexyan.org" target="_blank" class = "about-site">website</a>
+        <p class = "about-description">Hi! I'm a passionate web designer with a knack for cooking. I have been designing websites for 5 years and cooking for as long as I could see over the stove. Outside of the kitchen and away from my computer, I enjoy playing tennis, debating, and making music.</p>
+        <img class = "headshot" src="static/images/tomshahar.jpg"></img>
+        <h2 class = "about-name">Tom Shahar</h2>
+        <a href="http://www.tomshahar.io" target="_blank" class = "about-site">website</a>
+        <p  class = "about-description">Hello! I'm an seasoned chef and experienced graphic designer. I have been creating recipes for 6 years and designing website front-ends for 2. I enjoy coding, playing soccer, and singing.</p>
+      </div>
+    </div>
+
+  </section>
+  <script src="static/common.js"></script>
+  <script src="static/recipes.js"></script>
+</body>
+</html>
